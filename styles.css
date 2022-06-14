@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: stretch;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header, footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+header {
+    flex: 3;
+}
+
+nav {
+    
+}
+
+#header-content {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+main {
+    flex: 3;
+}
+
+article {
+    flex: 2;
+}
+
+.form {
+    flex: 2;
+}
+
+footer {
+    flex: 0.75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
