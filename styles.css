@@ -16,9 +16,20 @@ header {
 }
 
 nav {
-    
+    margin: 8px 100px 50px;
+    display: flex;    
 }
 
+#logo {
+    margin-right: auto;
+    width: 150px;
+}
+
+header ul {
+   list-style: none;
+   display: flex;
+   gap: 15px;
+}
 #header-content {
     display: flex;
     justify-content: center;
