@@ -30,10 +30,46 @@ header ul {
    display: flex;
    gap: 15px;
 }
+
 #header-content {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 12px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.intro {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 8px;
+    max-width: 50%;
+}
+
+.intro h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.intro * {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#signup-btn {
+    width: 85px;
+    height: 26px;
+    border-radius: 15%;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+
+#lead-image {
+    height: 250px;
 }
 
 main {
